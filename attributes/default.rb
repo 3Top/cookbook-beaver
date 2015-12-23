@@ -69,3 +69,7 @@ else
     }
   ]
 end
+
+# Install any version of Python to run Beaver.
+default['poise-python']['beaver']['provider'] = 'system'
+default['poise-python']['beaver']['version'] = ''
